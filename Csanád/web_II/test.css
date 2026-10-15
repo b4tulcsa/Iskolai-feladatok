@@ -1,0 +1,17 @@
+body{
+    background-image: url(asd.png);
+    font-variant: small-caps;
+    text-transform: capitalize;
+}
+p{
+    letter-spacing: 1.5;
+    line-height: 1.5;
+}
+.forgat{
+    transform: rotate(3.14159265359deg);
+}
+.vonal{
+    width: 80%;
+    height: 1px;
+    color: blueviolet;
+}

@@ -1,0 +1,208 @@
+Süni;vegyes;300
+Gesztenyealagút;vegyes;500
+Sajtos pogácsa;sós teasütemény;3300
+Diós-mákos;bejgli;3500
+Sajttorta (málnás);torta;9000
+Citrom;torta;3900
+Citrom;torta;7400
+Citrom;torta;11400
+Eszterházy;tortaszelet;490
+Rákóczi-túrós;pite;400
+Meggyes kocka;tejszínes sütemény;450
+Legényfogó;torta;12100
+Legényfogó;torta;4300
+Legényfogó;torta;8200
+Alpesi karamell;tortaszelet;490
+Kókuszcsók;édes teasütemény;3400
+Habos mákos;pite;400
+Szilvás;pite;350
+Juhtúrós párna;sós teasütemény;5000
+Mákos guba;tortaszelet;530
+Néró;édes teasütemény;3400
+Sacher;tortaszelet;490
+Citrom;tortaszelet;450
+Ribizlihabos-almás réteges;különleges torta;4700
+Három kívánság;torta;5700
+Három kívánság;torta;5700
+Dobos;torta;9000
+Dobos;torta;13200
+Dobos;torta;4700
+Epres mascarpone;tortaszelet;550
+Csokoládémousse;torta;11400
+Csokoládémousse;torta;3900
+Csokoládémousse;torta;7400
+Oroszkrém;torta;8200
+Oroszkrém;torta;4300
+Oroszkrém;torta;12100
+Medvetalp;vegyes;400
+Trüffel;torta;15400
+Trüffel;torta;10400
+Trüffel;torta;5400
+Tejszínes gyümölcsös (meggy);torta;8200
+Tejszínes gyümölcsös (meggy);torta;4300
+Tejszínes gyümölcsös (meggy);torta;12100
+Mákos-szilvalekváros;bejgli;3500
+Ribizlihabos-?almá?s réteges tortaszelet;tortaszelet;530
+Marcipános vágott;édes teasütemény;5200
+Indiáner;vegyes;500
+Meggyes;pite;350
+Mákos;bejgli;1700
+Sós karamella;torta;4700
+Sós karamella;torta;13200
+Sós karamella;torta;9000
+Legényfogó;tortaszelet;490
+Rigó Jancsi;torta;3900
+Rigó Jancsi;torta;7400
+Rigó Jancsi;torta;11400
+Tejszínes gyümölcsös (erdei gyümölcs);torta;4300
+Tejszínes gyümölcsös (erdei gyümölcs);torta;8200
+Tejszínes gyümölcsös (erdei gyümölcs);torta;12100
+Ez+Az (csokoládé és gesztenye);torta;13200
+Ez+Az (csokoládé és gesztenye);torta;9000
+Ez+Az (csokoládé és gesztenye);torta;4700
+Málnás mascarpone;torta;5700
+Málnás mascarpone;torta;16200
+Málnás mascarpone;torta;10900
+Dobos;tortaszelet;530
+Ferrero;torta;16200
+Ferrero;torta;10900
+Ferrero;torta;5700
+Vegyes házi pite falatok;pite;4200
+Ökörszem;édes teasütemény;3800
+Danubius kocka;tejszínes sütemény;450
+Sajtkrémmel töltött fánkocska;sós teasütemény;5200
+Túrókrém gyümölccsel díszítve;tortaszelet;490
+Almás;pite;350
+Mignon;vegyes;250
+Csokoládémousse fényes csokoládéval;torta;13400
+Csokoládémousse fényes csokoládéval;torta;9200
+Csokoládémousse fényes csokoládéval;torta;4900
+Vágott sós (sós omlós);sós teasütemény;4000
+Nagyi sós;sós teasütemény;5000
+Vegyes sós;sós teasütemény;4200
+Somlói;tortaszelet;580
+Tiramisu;tortaszelet;600
+Hegyvidék;tortaszelet;600
+Szedres csokoládé;tortaszelet;530
+Pogácsák vegyesen;sós teasütemény;3200
+Lúdláb;torta;13200
+Lúdláb;torta;9000
+Lúdláb;torta;4700
+Sacher;torta;8200
+Sacher;torta;12100
+Sacher;torta;4300
+Eszterházy;torta;8400
+Eszterházy;torta;12200
+Eszterházy;torta;4500
+Zalavári gesztenye;tortaszelet;600
+Gesztenyegolyó;vegyes;350
+Pisztáciás-málnás mascarpone;tortaszelet;750
+Habos mákos;vegyes;400
+Franciakrémes;krémes;350
+Gesztenye kocka;tejszínes sütemény;500
+Pisztáciás-málnás mascarpone;torta;18400
+Pisztáciás-málnás mascarpone;torta;6400
+Pisztáciás-málnás mascarpone;torta;12400
+Málnás kocka;tejszínes sütemény;450
+Sajttorta (málnás);tortaszelet;700
+Túrókrém gyümölccsel;torta;7400
+Túrókrém gyümölccsel;torta;3900
+Túrókrém gyümölccsel;torta;11400
+Csokis kaland;különleges torta;5700
+Somlói;torta;5400
+Palermo;torta;7400
+Palermo;torta;3900
+Palermo;torta;11400
+Szilvalekváros;bejgli;2100
+Ünnepi diótorta grillázzsal;torta;10900
+Ünnepi diótorta grillázzsal;torta;5700
+Ünnepi diótorta grillázzsal;torta;16200
+Oroszkrém;tortaszelet;490
+Mini zserbó;édes teasütemény;4200
+Sajtos masni;sós teasütemény;4000
+Zserbó;pite;350
+Tejszínes gyümölcsös (málna);torta;8200
+Tejszínes gyümölcsös (málna);torta;4300
+Tejszínes gyümölcsös (málna);torta;12100
+Marcipános csokoládé;torta;5700
+Marcipános csokoládé;torta;16200
+Marcipános csokoládé;torta;10900
+Csokis kaland;tortaszelet;650
+Marcipán tekercs;édes teasütemény;5200
+Képviselőfánk;vegyes;500
+Epres omlett;vegyes;600
+Mini linzer;édes teasütemény;3400
+Linzerkarika;vegyes;300
+Szedres csokoládé;torta;13200
+Szedres csokoládé;torta;9000
+Szedres csokoládé;torta;4700
+Narancsív;édes teasütemény;5200
+Gesztenyepüré;vegyes;800
+Palermo;tejszínes sütemény;450
+Csokis néró;édes teasütemény;4200
+Flódni;pite;400
+Mézeskalács;torta;16200
+Mézeskalács;torta;5700
+Mézeskalács;torta;10900
+Olívás pogácsa;sós teasütemény;3300
+Florentin;édes teasütemény;5200
+Tiramisu;torta;10400
+Tiramisu;torta;15400
+Tiramisu;torta;5400
+Zoli kedvence (vágott édes tea);édes teasütemény;4600
+Erdei gyümölcs kocka;tejszínes sütemény;450
+Rákóczi-túrós;tortaszelet;400
+Mézeskrémes;pite;330
+Trüffel;tortaszelet;650
+Szilvás papucs;édes teasütemény;4200
+Zalavári gesztenye;torta;10900
+Zalavári gesztenye;torta;5700
+Danubius;torta;4300
+Danubius;torta;12100
+Danubius;torta;8200
+Alpesi karamell;torta;12200
+Alpesi karamell;torta;8400
+Alpesi karamell;torta;4500
+Puncs;torta;11400
+Puncs;torta;3900
+Puncs;torta;7400
+Gesztenye szív;vegyes;300
+Ez+Az (csokoládé és gesztenye);tortaszelet;530
+Tökmagos félhold;sós teasütemény;3300
+Burgonyás pogácsa;sós teasütemény;2900
+Somlói galuska;vegyes;850
+Puncs;tortaszelet;450
+Lekváros vágotta;édes teasütemény;3600
+Oreo;torta;16200
+Oreo;torta;5700
+Oreo;torta;10900
+Vintage;torta;9900
+Rigó Jancsi;tejszínes sütemény;450
+Feketeerdő;torta;9000
+Feketeerdő;torta;13200
+Feketeerdő;torta;4700
+Kókuszos vágott;édes teasütemény;3400
+Feketeerdő;tortaszelet;530
+Moscauer;édes teasütemény;5200
+Diós;bejgli;1800
+Rákóczi-túrós;torta;3900
+Rákóczi-túrós;torta;7400
+Rákóczi-túrós;torta;11400
+Három kívánság;különleges torta;5700
+Gesztenyés-karamellás;bejgli;2100
+Gesztenyés szív;édes teasütemény;4400
+Ropi;sós teasütemény;4000
+Paleolit étcsokoládé;különleges torta;5300
+Túrós;pite;350
+Ischler;vegyes;250
+Lúdláb;tortaszelet;530
+Csokoládémousse;tortaszelet;450
+Dió;torta;4700
+Dió;torta;9000
+Dió;torta;13200
+Krémes;krémes;250
+Krémes;krémes;400
+Mini ischler;édes teasütemény;3400
+Paleolit étcsokoládé;tortaszelet;600
+Tejfölös túrós hajtogatott;sós teasütemény;4400
+Mákos guba;torta;4700

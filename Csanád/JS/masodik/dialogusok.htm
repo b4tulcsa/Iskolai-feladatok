@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>dialogus</h1>
+    <ul>
+        <li>Uzenet, figyelmeztetes: alert</li>
+    </ul>
+    <script>
+        //alert("Vigyázz meg leszel rapelve")
+    
+        //let e=prompt("hány éves vagy?", 18);
+        //str -> szam (integer): parseint(kif)
+        //szam -> float float
+        
+        const sz =parseFloat(prompt("kérem a teglalap szelesseget"))
+        const m = parseFloat(prompt("kérem a teglalap magassagat"))
+        console.log(m, typeof m)
+
+        const k = 2 * Math.round((sz + m)), t = Math.random(sz * m)
+        const rounded = k.roundto
+        document.write(`a téglalap kerülete ${k} a területe ${t} cm <sup>2</sup>`)
+    
+    </script>
+</body>
+</html>

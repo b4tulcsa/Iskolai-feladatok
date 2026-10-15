@@ -1,0 +1,89 @@
+-- 1.
+CREATE DATABASE ruhazat CHARACTER SET utf8 COLLATE utf8_hungarian_ci;
+
+-- 2.
+CREATE TABLE termekek (
+cikkszam int AUTO_INCREMENT PRIMARY KEY,
+    megnev varchar(15),
+    nettoar int,
+    afakulcs float,
+    keszlet SMALLINT,
+    akcio boolean
+);
+
+INSERT INTO `termekek`(`cikkszam`, `megnev`, `nettoar`, `afakulcs`, `keszlet`, `akcio`) 
+VALUES 
+(null,'pulóver',5000,0.25,10,1),
+(null,'széldzseki',12000,0.25,10,0),
+(null,'póló',1500,0,15,0),
+(null,'nyakkendő',890,0.25,10,0),
+(null,'ing',4500,0.12,8,1),
+(null,'öltöny',25000,0.12,7,1),
+(null,'cipő',18000,0.25,9,1),
+(null,'farmer',8000,0.25,11,0);
+
+-- 3.
+UPDATE termekek SET megnev = "Férfi öltöny" WHERE megnev = "öltöny";
+
+-- 4.
+UPDATE termekek SET nettoar = 11500, akcio = 1 WHERE megnev = "széldzseki";
+
+-- 5.
+ALTER TABLE termekek ADD bruttoar float;
+
+-- 6.
+UPDATE termekek SET bruttoar = nettoar * afakulcs + nettoar;
+-- vagy
+UPDATE termekek SET bruttoar = nettoar * (1 + afakulcs);
+
+-- 7.
+UPDATE termekek SET nettoar = nettoar * 0.75 WHERE akcio = 1;
+UPDATE termekek SET bruttoar = nettoar * (1 + afakulcs) WHERE akcio = 1;
+
+-- 8.
+ALTER TABLE termekek MODIFY keszlet tinyint;
+
+-- 9.
+DELETE FROM termekek WHERE akcio = 0 AND nettoar < 2000;
+
+-- 10.
+CREATE TABLE szallitok (
+szallitokod int AUTO_INCREMENT PRIMARY KEY,
+    cegnev varchar(20),
+    szekhely varchar(20),
+    cim varchar(40)
+);
+
+INSERT INTO `szallitok`(`cegnev`, `szekhely`, `cim`) 
+VALUES 
+('Kinizsi Kft.','Szeged','Tisza L. sgt. 3.'),
+('Zsuzsi Butik','Makó','Szegedi u. 14.'),
+('Elegance','Szentes','Kossuth út 18.');
+
+-- 11.
+UPDATE szallitok SET szekhely = "Hódmezővásárhely" WHERE cegnev = "Elegance";
+
+-- 12.
+ALTER TABLE szallitok ADD irszam varchar(4);
+
+-- 13.
+UPDATE szallitok SET irszam = '6900' WHERE szekhely = "Makó";
+UPDATE szallitok SET irszam = '6800' WHERE szekhely = "Hódmezővásárhely";
+
+-- 14.
+INSERT INTO `szallitok`(`cegnev`, `szekhely`, `cim`, `irszam`) 
+VALUES 
+('Blöki Kutyakozmetika','Szeged','Budai Nagy Antal u. 2.','6753');
+
+-- 15.
+CREATE TABLE vasarlas (
+cikkszam int,
+    vasarlas_datuma date,
+    mennyiseg SMALLINT,
+    szallitokod int,
+    PRIMARY KEY (cikkszam, szallitokod)
+);
+
+
+
+

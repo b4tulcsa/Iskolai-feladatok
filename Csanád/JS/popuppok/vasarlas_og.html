@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Vásárlás</h1>
+</body>
+<script>
+    let penz = parseInt(prompt("mennyi pénzünk van: "))
+    let termek = parseInt(prompt("mi a termék neve: "))
+    let egysegar = parseInt(prompt("mennyi a termék egységára: "))
+    let darab = parseInt(prompt("hány terméket vásárlunk: "))
+    
+    //console.log(penz,darab,egysegar)
+
+    document.write(`a ${darab} megnnyiségű ${termek} megvétele után a megmaradt pénzünk ${penz-egysegar*darab} a fizetés mennyisége ${penz-penz-egysegar*darab}Ft`)
+</script>
+</html>

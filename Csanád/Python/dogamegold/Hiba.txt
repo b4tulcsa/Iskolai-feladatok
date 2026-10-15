@@ -1,0 +1,8 @@
+#parkolás feladat
+Hibátlan 
+#jelszo
+ha a jelszó tul rövid és nincs benne szám akkor mindkét hiba üzenetet kiadja
+a példában az "alma" inputnál csak a "Túl rövidet anja ki"
+#filmek
+js straight nincs befejezve
+az elso feladatban bele számolja az első sort is ami hiba

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <H1>Adatbevitel</H1>
+
+    <!--
+    urlap elemek
+    type, select, textarea, placeholder, value
+    szöveg és ürlapelem összekapcs label
+    -->
+
+    <label for="adat">Szöveg: </label>
+    <input id="adat" type="text" name="anyád" placeholder="ide barmit beirhatsz" size="20" maxlength="">
+    <br>
+    <label for="adat2">Másik szöveg: </label>
+    <input id="adat2" type="date" name="anyád" placeholder="alap" size="20" maxlength="">
+    <br>
+    <button onclick="muvelet()">Számolj</button>
+    <br>
+    <br>
+    <div id="kimenet"></div>
+    <br><br>
+    <div id="datum"></div>
+
+    <div id="ki2">Itt van egy szoveg</div>
+    <script>
+        // fuggveny: function nev(parameter) {utasitasok}
+        function muvelet() {
+            //obijektum megkeresése: getElement(s)ById("azonodito")
+            let elso = parseInt(document.getElementById("adat").value);
+            console.log(elso, typeof elso)
+            
+            const masodik = document.getElementById("adat2").value;
+            console.log(masodik, typeof masodik)
+
+            let sz = elso * 100 % 29
+            //console.log(sz, typeof sz)
+
+            document.getElementById("kimenet").innerHTML = "<b>"+elso+"<!b>";
+
+            document.getElementById("ki2").innerHTML += sz
+
+            
+        }
+    </script>
+</body>
+</html>

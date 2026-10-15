@@ -1,0 +1,37 @@
+CREATE DATABASE termek CHARACTER SET utf8_hungarian_ci;
+
+CREATE TABLE zoldseg (
+	sorszam int PRIMARY KEY,
+    nev varchar(30),
+    ar SMALLINT,
+    besz_datum date,
+    engedmenyes BINARY    
+);
+
+INSERT INTO `zoldseg`(`sorszam`, `nev`, `ar`, `besz_datum`, `engedmenyes`) 
+VALUES
+('1','paradicsom',120,'2026-09-18','0'),
+('2','burgonya',250,'2026-09-18','0'),
+('3','sütőtök',100,'2026-09-18','1'),
+('4','zöldségzöld',80,'2026-09-18','1');
+
+RENAME table zoldseg to zoldsegraktar;
+
+INSERT INTO `zoldsegraktar`(`sorszam`, `nev`, `ar`, `besz_datum`, `engedmenyes`) 
+VALUES 
+(5,'karaláb',500,'2026-09-25',0),
+(6,'repa',133,'2026-09-25',0),
+(7,'cukkini',500,'2026-09-25',0),
+(8,'brokkoli',500,'2026-09-25',0),
+(9,'zeller',500,'2026-09-25',0);
+
+ALTER TABLE zoldsegraktar MODIFY ar int;
+alter TABLE zoldsegraktar MODIFY ar tinyint;
+
+UPDATE `zoldsegraktar` 
+SET 
+`nev`='paradicsom',
+`ar`='450' WHERE sorszam = 1;
+
+UPDATE zoldsegraktar SET ar = ar * 1.3 WHERE nev = "zoldsg";
+DELETE FROM zoldsegraktar WHERE besz_datum = "2026-09-01" and engedmenyes = 1;

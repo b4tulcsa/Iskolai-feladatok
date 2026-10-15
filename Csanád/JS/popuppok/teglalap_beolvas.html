@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>teglalap</title>
+</head>
+<body>
+    <h1>teglalap kerulete es terulete</h1>
+
+    <script>
+        let szel = prompt("szelesseg:")
+        let mag = prompt("magassag: ")
+
+        // konvertalas: int - parseInt()
+        // float - parseFloat()
+        szel = parseFloat(szel)
+        mag = parseFloat(mag)
+
+        let k=Math.round(2*(szel+mag))
+        let t=Math.round(szel*mag)
+        document.write(`kerulete: ${k} cm <br>`)
+        document.write(`terulete ${t} cm <br>`)
+
+        //2 tizedes jegyre kerekites
+        let k2 = Math.round(2*(szel+mag)*100)/100
+        let t2 = Math.round((szel*mag)*100)/100
+        document.write(`2 tizedes jegyre kerekites: kerulet: ${k2}, terulet: ${t2} <br>`)
+
+        // tizesekre kerekites
+
+        let k3 = Math.round((szel+mag)*2/10)*10
+        let t3 = Math.round((szel*mag)/10)*10
+        document.write(`tizesekre kerekites: kerulet: ${k3}, terulet: ${t3}`)
+    </script>
+</body>
+</html>

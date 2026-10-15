@@ -1,0 +1,101 @@
+CREATE DATABASE termek CHARACTER SET utf8 COLLATE utf8_hungarian_ci;
+USE termek;
+
+CREATE TABLE zoldseg (
+    sorszam int PRIMARY KEY,
+    nev varchar(30),
+    ar SMALLINT,
+    besz_datum date,
+    engedmenyes BINARY
+);
+
+INSERT INTO `zoldseg`(`sorszam`, `nev`, `ar`, `besz_datum`, `engedmenyes`) 
+VALUES 
+(1,'paradicsom',120,'2026-09-18',0),
+(2,'sütőtök',180,'2026-09-21',1),
+(3,'burgonya',250,'2026-09-01',0),
+(4,'zöldségzöld',80,'2026-09-22',1);
+
+RENAME TABLE zoldseg TO zoldsegraktar;
+RENAME TABLE zoldsegraktar TO zoldseg;
+
+-- Hibás parancs, mert duplikált kulcs értéket használtunk.
+INSERT INTO `zoldseg`(`sorszam`, `nev`, `ar`, `besz_datum`, `engedmenyes`)
+VALUES 
+(3,'répa',300,'2026-08-30',0);
+
+
+INSERT INTO `zoldseg`(`sorszam`, `nev`, `ar`, `besz_datum`, `engedmenyes`) 
+VALUES 
+(5,'karaláb',560,'2026-09-15',0),
+(6,'zellergumó',135,'2026-09-11',1),
+(7,'cukkini',340,'2026-09-20',0);
+
+-- Az ar mező típusát módosítsuk 4B-os egészre!
+ALTER TABLE zoldseg MODIFY ar int;
+
+-- Az ar mező típusát módosítsuk 1B-os egészre!
+ALTER TABLE zoldseg MODIFY ar tinyint;
+-- Probléma: a kisebb mezőméret miatt adatvesztés történik - a maxTinyint érték = 127 kerül a cellába
+
+-- A nev mező hosszát módosítsuk 40 karakterre!
+ALTER TABLE zoldseg MODIFY nev varchar(40);
+
+-- A nev mező hosszát módosítsuk 7 karakterre!
+ALTER TABLE zoldseg MODIFY nev varchar(7);
+-- Itt adatveszteség történik, a 7. karakter után a többit levágja
+
+-- A besz_datum mező nevét változtassuk datum-ra, a típusa nem változik!
+ALTER TABLE zoldseg CHANGE besz_datum datum date;
+
+-- Hozzunk létre egy megjegyzes mezőt text típussal!
+ALTER TABLE zoldseg ADD megjegyzes text;
+
+-- Töröljük ki az előbb létrehozott mezőt!
+ALTER TABLE zoldseg DROP megjegyzes;
+
+-- Hozzunk létre egy nettoar nevű mezőt valós típussal!
+ALTER TABLE zoldseg ADD nettoar float;
+
+-- Töröljük az elsődleges kulcs bejegyzést!
+ALTER TABLE zoldseg DROP PRIMARY KEY;
+
+-- Írjuk vissza az elsődleges kulcs bejegyzést a sorszám mezőre!
+ALTER TABLE zoldseg ADD PRIMARY KEY (sorszam);
+
+-- Visszaállítjuk a mezőméreteket.
+ALTER TABLE zoldseg MODIFY nev varchar(30);
+ALTER TABLE zoldseg MODIFY ar SMALLINT;
+
+-- Az 1. sorszámú termék neve legyen paradicsom, ára pedig 450 Ft.
+UPDATE zoldseg SET nev = "paradicsom", ar = 450 WHERE sorszam = 1;
+
+-- A zöldség ára 30%-kal nőtt. Változtassuk a cellaértéket eszerint!
+UPDATE zoldseg SET ar = ar * 1.3 WHERE nev = "zöldség";
+
+-- Töltsük fel a nettoar mezőt a nettóárakkal! 
+-- A bruttó ár 27%-os áfa-t tartalmaz.
+netto = brutto / 1.27
+UPDATE zoldseg SET nettoar = ar / 1.27;
+
+-- Tegyük engedményessé a 2026.09.20. előtt beszerzett termékeket!
+UPDATE zoldseg SET engedmenyes = 1 WHERE datum < "2026-09-20";
+
+-- Töröljük a 2026.09.01-jén beszerzett engedményes termékeket!
+DELETE FROM zoldseg WHERE datum = "2026-09-01" AND engedmenyes = 1;
+
+-- Ürítsük a táblát!
+TRUNCATE zoldseg;
+
+-- Töröljük a táblát!
+DROP TABLE zoldseg;
+
+-- Töröljük az adatbázist!
+DROP DATABASE termek;
+
+
+
+
+
+
+

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>urlapos dolog</title>
+    <style>
+        #ki2 {display: none;}
+        #ki3 {visibility: hidden;}
+    </style>
+</head>
+<body>
+    <h1>adatbevutek urlap</h1>
+    <!--urlap: from, urlapelem: input, select, textarea, button
+    tulajodnsagok
+    type, maxlength, size, placeholder, value
+    -->
+
+    <label for="adat1">Penz:</label>
+    <input id="adat1" type="text" size="10" maxlength="15" placeholder="asd">Ft
+    <br>
+    <label for="adat2">Datum:</label>
+    <input id="adat2" type="date">
+    <br>
+    <button onclick="muvelet();">Számolj</button>
+    <br>
+    <div id="kimenet"></div>
+    <div id="ki2">Szoveg</div>
+    <div id="ki3">Szoveges xxxx</div>
+    <div id="ki4">asd</div>
+
+    <script>
+        function muvelet() {
+            // let elso = document.getElementById("adat1").size
+            let elso = parseInt(document.getElementById("adat1").value)
+            // let elso = document.getElementById("adat1").value
+            let masodik = document.getElementById("adat2").value
+            console.log(elso, typeof(elso))
+            console.log(masodik, typeof(masodik))
+
+            let kimenet = document.getElementById("kimenet")
+
+            kimenet.innerHTML = elso + " datum: " + masodik
+            kimenet.style.color = "red"
+            kimenet.style.backgroundColor = "yellow"
+            kimenet.style.marginTop = "20px"
+
+            document.getElementById("ki2").style.display = "block"
+            document.getElementById("ki3").style.visibility = "visible"
+
+        }
+    </script>
+</body>
+</html>

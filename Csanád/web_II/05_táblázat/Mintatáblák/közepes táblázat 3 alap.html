@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+  <meta charset="UTF-8">
+  <title>Modern Színes Táblázat</title>
+  
+</head>
+<style>
+  body{
+    background-color: #f0f2f5;
+    font-family: roboto, sans-serif;
+  }
+  h2{
+    text-align: center;
+    color: #333;
+  }
+  table{
+    border-collapse: collapse;
+    width: 100%;
+    min-width: 700px;
+    font-size: 15px;
+  }
+  .table-wrapper{
+    overflow-x: auto;
+    margin: 30px auto;
+    width: 100%;
+    background-color: white;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 3px;
+    border-bottom-right-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.8);
+    border: 2px solid rgb(145, 96, 7);
+    border-width: 2px 3px 4px 5px;
+    border-color:  red green blue yellow;
+  }
+  thead{
+    background-color: #37474F;
+    color:white;
+  }
+th, td{
+  text-align: left;
+  padding: 14px 18px;
+}
+tbody tr:nth-child(even){
+  background-color: #f9f9f9f9;
+}
+tbody tr:nth-child(odd){
+  background-color: #e3f2fd;
+}
+tr.paratlan:hover{
+  color: white;
+}
+tr.paros:hover{
+  color: rgb(219, 71, 71);
+}
+tbody tr:hover{
+  background-color: #bbdefb;
+  transition: 1s ease-in-out;
+}
+@media (max-width: 768) {
+  table{
+    font-size: 13px;
+    min-width: 100%;
+  }
+
+  th, td{
+    padding: 10px 12px;
+  }
+  
+}
+
+
+
+</style>
+<body>
+<h2>Termék Raktár Lista</h2>
+  <div class="table-wrapper">
+    <table>
+      <thead>
+        <tr>
+          <th>Termék neve</th>
+          <th>Kategória</th>
+          <th>Készleten</th>
+          <th>Egységár (Ft)</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr class="paratlan">
+          <td>Logitech Egér M185</td>
+          <td>Perifériák</td>
+          <td>32 db</td>
+          <td>3990</td>
+        </tr>
+        <tr class="paros">
+          <td>Samsung SSD 1TB</td>
+          <td>Tároló</td>
+          <td>15 db</td>
+          <td>28 990</td>
+        </tr>
+        <tr class="paratlan">
+          <td>HP OfficeJet Nyomtató</td>
+          <td>Nyomtatók</td>
+          <td>7 db</td>
+          <td>21 500</td>
+        </tr>
+        <tr class="paros">
+          <td>Kingston RAM 16GB</td>
+          <td>Memória</td>
+          <td>40 db</td>
+          <td>17 200</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+</body>
+</html>

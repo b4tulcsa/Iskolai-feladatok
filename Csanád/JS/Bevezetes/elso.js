@@ -1,0 +1,1 @@
+document.write("holnap nuholok roland arcára")

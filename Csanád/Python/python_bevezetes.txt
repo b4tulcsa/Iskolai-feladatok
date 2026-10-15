@@ -1,0 +1,23 @@
+- sazkriptnyelv
+- open-source
+- op rendszer független
+- sintax szerint könnyű
+
+ egyszerű tipusok: 
+	- int: egész szám (ha kell akkor a számot kerekíti)
+	- float: nem egész szám
+	- bool: Igaz v Hamis
+	- str: "" vagy '' közé írt szöveg
+
+Összetett típusok:
+	- list: Rendezett, módosítható elemek sora, például [1, 2, 3].
+	- tuple: Rendezett, nem módosítható elemek sora, például (1, 2, 3).
+	- dict: Kulcs-érték párok gyűjteménye, például {"kulcs": "érték"}.
+	- set: Egyedi elemek rendezetlen gyűjteménye, például {1, 2, 3}.
+
+Operátorok:
+
+Matematikai operátorok: +, -, *, /, //, %, **
+Összehasonlító operátorok: ==, !=, >, <, >=, <=
+Logikai operátorok: and ∧, or ∨, not ¬
+Hozzárendelő operátorok: =, +=, -=, *=, /=

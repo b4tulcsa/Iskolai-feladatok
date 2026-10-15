@@ -1,0 +1,34 @@
+CREATE DATABASE ruhazat CHARACTER SET utf8 COLLATE utf8_hungarian_ci;
+
+CREATE TABLE tanulok (
+tanulo SMALLINT AUTO_INCREMENT PRIMARY KEY,
+nev varchar(25),
+neme boolean,
+szuldatum date,
+szulhely varchar(20),
+osztaly varchar(4),
+nyelviismeret varchar(15)
+);
+
+INSERT INTO `tanulok`(`tanulo`, `nev`, `neme`, `szuldatum`, `szulhely`, `osztaly`, `nyelviismeret`) 
+VALUES 
+(null,	"Bálint Ágnes",	1,	'1998.10.07',	"Szeged",	"10.a",	"angol"),
+(null,	"Vass Barbara",	1,	'1999.04.17',	"Pécs",	"10.b",	"angol"),
+(null,	"Joó Barnabás",	0,	'1997.11.09',	"Szeged",	"11.b",	""),
+(null,	"Kedves János",	0,	'1996.03.26',	"Szeged",	"12.a",	"német"),
+(null,	"Mészáros Mária",	1,	'1998.01.15',	"Budapest",	"11.b",	"olasz");
+
+UPDATE `tanulok` SET szulhely = "Mako" WHERE nev = "Kedves János";
+
+ALTER TABLE tanulok ADD magassag SMALLINT;
+
+UPDATE tanulok set magassag = 167 WHERE neme = 1;
+UPDATE tanulok set magassag = 175 WHERE neme = 0;
+
+ALTER TABLE tanulok MODIFY szulhely varchar(25);
+
+UPDATE `tanulok` SET `nev`='Mária Erzsébet', szuldatum = "1998.01.17" WHERE nev = "Mészáros Mária";
+
+DELETE FROM `tanulok` WHERE tanulo = 1;
+
+ALTER TABLE tanulok DROP nyelviismeret;

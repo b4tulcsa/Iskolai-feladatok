@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Vásárlás</h1>
+</body>
+<script>
+    let penz = parseInt(prompt("mennyi pénzünk van: "))
+    let termek = parseInt(prompt("mi a termék neve: "))
+    let egysegar = parseInt(prompt("mennyi a termék egységára: "))
+    let darab = Math.floor(penz/egysegar)
+    let maradek = penz % egysegar
+    
+    console.log(penz,darab,egysegar,darab)
+    document.write(penz, 'mennyisegu penz<br>')
+    document.write(termek, 'a termek neve<br>')
+    document.write(egysegar, 'egy termek ara<br>')
+    document.write(darab, 'mennyisegu arut vehetunk<br><br>')
+    document.write(`a ${darab} megnnyiségű ${termek}-et tudunk megvenni ami ${darab*egysegar}Ft be került a megmaradt pénz: ${maradek}Ft`)
+</script>
+</html>
