@@ -1,0 +1,14 @@
+J:\2026_2027\C\kiarusitas\kiarusitas\bin\Debug\net8.0\kiarusitas.exe
+J:\2026_2027\C\kiarusitas\kiarusitas\bin\Debug\net8.0\kiarusitas.deps.json
+J:\2026_2027\C\kiarusitas\kiarusitas\bin\Debug\net8.0\kiarusitas.runtimeconfig.json
+J:\2026_2027\C\kiarusitas\kiarusitas\bin\Debug\net8.0\kiarusitas.dll
+J:\2026_2027\C\kiarusitas\kiarusitas\bin\Debug\net8.0\kiarusitas.pdb
+J:\2026_2027\C\kiarusitas\kiarusitas\obj\Debug\net8.0\kiarusitas.GeneratedMSBuildEditorConfig.editorconfig
+J:\2026_2027\C\kiarusitas\kiarusitas\obj\Debug\net8.0\kiarusitas.AssemblyInfoInputs.cache
+J:\2026_2027\C\kiarusitas\kiarusitas\obj\Debug\net8.0\kiarusitas.AssemblyInfo.cs
+J:\2026_2027\C\kiarusitas\kiarusitas\obj\Debug\net8.0\kiarusitas.csproj.CoreCompileInputs.cache
+J:\2026_2027\C\kiarusitas\kiarusitas\obj\Debug\net8.0\kiarusitas.dll
+J:\2026_2027\C\kiarusitas\kiarusitas\obj\Debug\net8.0\refint\kiarusitas.dll
+J:\2026_2027\C\kiarusitas\kiarusitas\obj\Debug\net8.0\kiarusitas.pdb
+J:\2026_2027\C\kiarusitas\kiarusitas\obj\Debug\net8.0\kiarusitas.genruntimeconfig.cache
+J:\2026_2027\C\kiarusitas\kiarusitas\obj\Debug\net8.0\ref\kiarusitas.dll

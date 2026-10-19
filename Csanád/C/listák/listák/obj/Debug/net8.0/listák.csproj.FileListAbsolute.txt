@@ -1,0 +1,14 @@
+J:\2026_2027\C\listák\listák\bin\Debug\net8.0\listák.exe
+J:\2026_2027\C\listák\listák\bin\Debug\net8.0\listák.deps.json
+J:\2026_2027\C\listák\listák\bin\Debug\net8.0\listák.runtimeconfig.json
+J:\2026_2027\C\listák\listák\bin\Debug\net8.0\listák.dll
+J:\2026_2027\C\listák\listák\bin\Debug\net8.0\listák.pdb
+J:\2026_2027\C\listák\listák\obj\Debug\net8.0\listák.GeneratedMSBuildEditorConfig.editorconfig
+J:\2026_2027\C\listák\listák\obj\Debug\net8.0\listák.AssemblyInfoInputs.cache
+J:\2026_2027\C\listák\listák\obj\Debug\net8.0\listák.AssemblyInfo.cs
+J:\2026_2027\C\listák\listák\obj\Debug\net8.0\listák.csproj.CoreCompileInputs.cache
+J:\2026_2027\C\listák\listák\obj\Debug\net8.0\listák.dll
+J:\2026_2027\C\listák\listák\obj\Debug\net8.0\refint\listák.dll
+J:\2026_2027\C\listák\listák\obj\Debug\net8.0\listák.pdb
+J:\2026_2027\C\listák\listák\obj\Debug\net8.0\listák.genruntimeconfig.cache
+J:\2026_2027\C\listák\listák\obj\Debug\net8.0\ref\listák.dll

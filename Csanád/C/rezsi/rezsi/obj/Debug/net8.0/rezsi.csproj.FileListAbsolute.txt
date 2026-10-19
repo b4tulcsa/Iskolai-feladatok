@@ -1,0 +1,14 @@
+J:\2026_2027\C\rezsi\rezsi\bin\Debug\net8.0\rezsi.exe
+J:\2026_2027\C\rezsi\rezsi\bin\Debug\net8.0\rezsi.deps.json
+J:\2026_2027\C\rezsi\rezsi\bin\Debug\net8.0\rezsi.runtimeconfig.json
+J:\2026_2027\C\rezsi\rezsi\bin\Debug\net8.0\rezsi.dll
+J:\2026_2027\C\rezsi\rezsi\bin\Debug\net8.0\rezsi.pdb
+J:\2026_2027\C\rezsi\rezsi\obj\Debug\net8.0\rezsi.GeneratedMSBuildEditorConfig.editorconfig
+J:\2026_2027\C\rezsi\rezsi\obj\Debug\net8.0\rezsi.AssemblyInfoInputs.cache
+J:\2026_2027\C\rezsi\rezsi\obj\Debug\net8.0\rezsi.AssemblyInfo.cs
+J:\2026_2027\C\rezsi\rezsi\obj\Debug\net8.0\rezsi.csproj.CoreCompileInputs.cache
+J:\2026_2027\C\rezsi\rezsi\obj\Debug\net8.0\rezsi.dll
+J:\2026_2027\C\rezsi\rezsi\obj\Debug\net8.0\refint\rezsi.dll
+J:\2026_2027\C\rezsi\rezsi\obj\Debug\net8.0\rezsi.pdb
+J:\2026_2027\C\rezsi\rezsi\obj\Debug\net8.0\rezsi.genruntimeconfig.cache
+J:\2026_2027\C\rezsi\rezsi\obj\Debug\net8.0\ref\rezsi.dll

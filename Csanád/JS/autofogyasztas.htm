@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Auto fogasztas</title>
+    <script src="autofogyasztas.js" defer></script>
+</head>
+<style>
+    body{
+        background-color: rgb(255, 166, 0);
+        color: rgb(65, 65, 65);
+    }
+</style>
+<body>
+<form>
+    <label for="adat1">Az óra állása legutóbbi tankoláskor: </label>
+    <input id="adat1" size="10" id="legutobbi " type="number">
+<br>
+    <label for="adat2">Az óra állása a mostani tankoláskor: </label>
+    <input id="adat2" size="10" id="mostani" type="number">
+<br>
+    <label for="adat3">legutobbi tankolas mennyisege: </label>
+    <input id="adat3" size="10" id="legutobbil" type="number">
+<br>
+    <label for="adat4">Ft/L: </label>
+    <input id="adat4" size="10" id="ar" type="number">
+<br><br>
+</form>
+<button onclick="muvelet()">Számolás</button>
+<p id="valasz"></p>
+<p id="valasz2"></p>
+<p id="valasz3"></p>
+</body>
+</html>

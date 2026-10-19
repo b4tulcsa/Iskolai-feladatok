@@ -1,0 +1,14 @@
+J:\2026_2027\C\ciklusok\ciklusok\bin\Debug\net8.0\ciklusok.exe
+J:\2026_2027\C\ciklusok\ciklusok\bin\Debug\net8.0\ciklusok.deps.json
+J:\2026_2027\C\ciklusok\ciklusok\bin\Debug\net8.0\ciklusok.runtimeconfig.json
+J:\2026_2027\C\ciklusok\ciklusok\bin\Debug\net8.0\ciklusok.dll
+J:\2026_2027\C\ciklusok\ciklusok\bin\Debug\net8.0\ciklusok.pdb
+J:\2026_2027\C\ciklusok\ciklusok\obj\Debug\net8.0\ciklusok.GeneratedMSBuildEditorConfig.editorconfig
+J:\2026_2027\C\ciklusok\ciklusok\obj\Debug\net8.0\ciklusok.AssemblyInfoInputs.cache
+J:\2026_2027\C\ciklusok\ciklusok\obj\Debug\net8.0\ciklusok.AssemblyInfo.cs
+J:\2026_2027\C\ciklusok\ciklusok\obj\Debug\net8.0\ciklusok.csproj.CoreCompileInputs.cache
+J:\2026_2027\C\ciklusok\ciklusok\obj\Debug\net8.0\ciklusok.dll
+J:\2026_2027\C\ciklusok\ciklusok\obj\Debug\net8.0\refint\ciklusok.dll
+J:\2026_2027\C\ciklusok\ciklusok\obj\Debug\net8.0\ciklusok.pdb
+J:\2026_2027\C\ciklusok\ciklusok\obj\Debug\net8.0\ciklusok.genruntimeconfig.cache
+J:\2026_2027\C\ciklusok\ciklusok\obj\Debug\net8.0\ref\ciklusok.dll

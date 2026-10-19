@@ -1,0 +1,14 @@
+J:\2026_2027\C\osztályátlag\osztályátlag\bin\Debug\net8.0\osztályátlag.exe
+J:\2026_2027\C\osztályátlag\osztályátlag\bin\Debug\net8.0\osztályátlag.deps.json
+J:\2026_2027\C\osztályátlag\osztályátlag\bin\Debug\net8.0\osztályátlag.runtimeconfig.json
+J:\2026_2027\C\osztályátlag\osztályátlag\bin\Debug\net8.0\osztályátlag.dll
+J:\2026_2027\C\osztályátlag\osztályátlag\bin\Debug\net8.0\osztályátlag.pdb
+J:\2026_2027\C\osztályátlag\osztályátlag\obj\Debug\net8.0\osztályátlag.GeneratedMSBuildEditorConfig.editorconfig
+J:\2026_2027\C\osztályátlag\osztályátlag\obj\Debug\net8.0\osztályátlag.AssemblyInfoInputs.cache
+J:\2026_2027\C\osztályátlag\osztályátlag\obj\Debug\net8.0\osztályátlag.AssemblyInfo.cs
+J:\2026_2027\C\osztályátlag\osztályátlag\obj\Debug\net8.0\osztályátlag.csproj.CoreCompileInputs.cache
+J:\2026_2027\C\osztályátlag\osztályátlag\obj\Debug\net8.0\osztályátlag.dll
+J:\2026_2027\C\osztályátlag\osztályátlag\obj\Debug\net8.0\refint\osztályátlag.dll
+J:\2026_2027\C\osztályátlag\osztályátlag\obj\Debug\net8.0\osztályátlag.pdb
+J:\2026_2027\C\osztályátlag\osztályátlag\obj\Debug\net8.0\osztályátlag.genruntimeconfig.cache
+J:\2026_2027\C\osztályátlag\osztályátlag\obj\Debug\net8.0\ref\osztályátlag.dll

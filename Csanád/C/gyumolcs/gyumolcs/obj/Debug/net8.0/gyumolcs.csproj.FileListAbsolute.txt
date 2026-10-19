@@ -1,0 +1,14 @@
+J:\2026_2027\C\gyumolcs\gyumolcs\bin\Debug\net8.0\gyumolcs.exe
+J:\2026_2027\C\gyumolcs\gyumolcs\bin\Debug\net8.0\gyumolcs.deps.json
+J:\2026_2027\C\gyumolcs\gyumolcs\bin\Debug\net8.0\gyumolcs.runtimeconfig.json
+J:\2026_2027\C\gyumolcs\gyumolcs\bin\Debug\net8.0\gyumolcs.dll
+J:\2026_2027\C\gyumolcs\gyumolcs\bin\Debug\net8.0\gyumolcs.pdb
+J:\2026_2027\C\gyumolcs\gyumolcs\obj\Debug\net8.0\gyumolcs.GeneratedMSBuildEditorConfig.editorconfig
+J:\2026_2027\C\gyumolcs\gyumolcs\obj\Debug\net8.0\gyumolcs.AssemblyInfoInputs.cache
+J:\2026_2027\C\gyumolcs\gyumolcs\obj\Debug\net8.0\gyumolcs.AssemblyInfo.cs
+J:\2026_2027\C\gyumolcs\gyumolcs\obj\Debug\net8.0\gyumolcs.csproj.CoreCompileInputs.cache
+J:\2026_2027\C\gyumolcs\gyumolcs\obj\Debug\net8.0\gyumolcs.dll
+J:\2026_2027\C\gyumolcs\gyumolcs\obj\Debug\net8.0\refint\gyumolcs.dll
+J:\2026_2027\C\gyumolcs\gyumolcs\obj\Debug\net8.0\gyumolcs.pdb
+J:\2026_2027\C\gyumolcs\gyumolcs\obj\Debug\net8.0\gyumolcs.genruntimeconfig.cache
+J:\2026_2027\C\gyumolcs\gyumolcs\obj\Debug\net8.0\ref\gyumolcs.dll

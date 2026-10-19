@@ -1,0 +1,41 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "J:\\2026_2027\\C\\rezsi\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{F404729B-92F8-4715-9D94-D4623860FF3C}|rezsi\\rezsi.csproj|j:\\2026_2027\\c\\rezsi\\rezsi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F404729B-92F8-4715-9D94-D4623860FF3C}|rezsi\\rezsi.csproj|solutionrelative:rezsi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "J:\\2026_2027\\C\\rezsi\\rezsi\\Program.cs",
+              "RelativeDocumentMoniker": "rezsi\\Program.cs",
+              "ToolTip": "J:\\2026_2027\\C\\rezsi\\rezsi\\Program.cs",
+              "RelativeToolTip": "rezsi\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAA9AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-19T10:44:37.481Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

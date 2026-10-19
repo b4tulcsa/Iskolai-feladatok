@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>2d css keptranszformacio</title>
+
+<style>
+    .image-container{
+        width: 300px;
+        margin: 50px auto;
+        text-align: center;
+    }
+    img{
+        width: 300px;
+        transform: translate(20px,10px) rotate(10deg) skew(10deg,5deg)scale(1.1);
+        transition: transform 1s ease-in-out;
+    }
+    img:hover{
+        transform: matrix(1.5,0.1,-0.1,1.2,40,30);
+    }
+
+</style>
+<div class="image-container">
+    <h2>Alap 2d transform + hover matrix</h2>
+    <br><br><br><br>
+    <img src="https://picsum.photos/id/237/300/200" alt="Kiskutya">
+    <br><br><br><br>
+    <h2>Anumált kép (rotate + scale)</h2>
+    <br><br><br><br>
+    <img src="https://picsum.photos/id/238/300/200" alt="animated-img">
+</div>
+
+</head>
+<body>
+    <h3></h3>
+</body>
+</html>

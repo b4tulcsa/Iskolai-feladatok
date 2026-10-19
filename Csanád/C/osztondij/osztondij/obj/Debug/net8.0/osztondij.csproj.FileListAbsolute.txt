@@ -1,0 +1,14 @@
+J:\2026_2027\C\osztondij\osztondij\bin\Debug\net8.0\osztondij.exe
+J:\2026_2027\C\osztondij\osztondij\bin\Debug\net8.0\osztondij.deps.json
+J:\2026_2027\C\osztondij\osztondij\bin\Debug\net8.0\osztondij.runtimeconfig.json
+J:\2026_2027\C\osztondij\osztondij\bin\Debug\net8.0\osztondij.dll
+J:\2026_2027\C\osztondij\osztondij\bin\Debug\net8.0\osztondij.pdb
+J:\2026_2027\C\osztondij\osztondij\obj\Debug\net8.0\osztondij.GeneratedMSBuildEditorConfig.editorconfig
+J:\2026_2027\C\osztondij\osztondij\obj\Debug\net8.0\osztondij.AssemblyInfoInputs.cache
+J:\2026_2027\C\osztondij\osztondij\obj\Debug\net8.0\osztondij.AssemblyInfo.cs
+J:\2026_2027\C\osztondij\osztondij\obj\Debug\net8.0\osztondij.csproj.CoreCompileInputs.cache
+J:\2026_2027\C\osztondij\osztondij\obj\Debug\net8.0\osztondij.dll
+J:\2026_2027\C\osztondij\osztondij\obj\Debug\net8.0\refint\osztondij.dll
+J:\2026_2027\C\osztondij\osztondij\obj\Debug\net8.0\osztondij.pdb
+J:\2026_2027\C\osztondij\osztondij\obj\Debug\net8.0\osztondij.genruntimeconfig.cache
+J:\2026_2027\C\osztondij\osztondij\obj\Debug\net8.0\ref\osztondij.dll

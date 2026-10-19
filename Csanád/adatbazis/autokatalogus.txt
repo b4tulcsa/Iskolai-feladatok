@@ -1,0 +1,65 @@
+-- AUTOSZALON feladat megoldása (MySQL / MariaDB)
+ 
+-- 1. Adatbázis létrehozása UTF8 kódolással, magyar ékezetes karakterekhez
+CREATE DATABASE AUTOSZALON
+    CHARACTER SET utf8
+    COLLATE utf8_hungarian_ci;
+ 
+USE AUTOSZALON;
+ 
+-- 2. Tábla létrehozása
+CREATE TABLE AUTOKATALOGUS (
+    autoID          INT AUTO_INCREMENT PRIMARY KEY,   -- 4B-os egész, automatikus sorszám
+    tipus           VARCHAR(50),
+    kategoria       VARCHAR(30),
+    gyartasiEv      SMALLINT,                         -- 2B-os egész
+    ujkoriAra       INT,                              -- 4B-os egész
+    hirdetes_datuma DATE
+);
+ 
+-- Feltöltés adatokkal
+INSERT INTO AUTOKATALOGUS (autoID, tipus, kategoria, gyartasiEv, ujkoriAra, hirdetes_datuma) VALUES
+(1, 'RENAULT Zoe E-Tech Electric',            'kisautó',              2022,  1349000, '2023-12-20'),
+(2, 'AUDI A6 Avant 45 TFSI Basis S tronic',   'felső középkategória', 2023, 22063510, '2023-11-28'),
+(3, 'BMW 318i (Automata)',                    'nagykocsi',            2022, 14800000, '2024-01-05'),
+(4, 'PORSCHE Cayenne Tiptronic ic',           'nagykocsi',            2023, 43178000, '2023-11-07'),
+(5, 'CITROEN C3 Aircross 1.2 PureTech You S&S','kisautó',             2023,  7810000, '2024-02-06');
+ 
+-- 3. A "tipus" mező átnevezése "autotipus"-ra, típusa VARCHAR(100)
+ALTER TABLE AUTOKATALOGUS
+    CHANGE tipus autotipus VARCHAR(100);
+ 
+-- 4. A BMW kategóriájának és hirdetési dátumának módosítása egyetlen utasítással
+UPDATE AUTOKATALOGUS
+SET kategoria = 'középkategória',
+    hirdetes_datuma = '2024-01-10'
+WHERE autotipus = 'BMW 318i (Automata)';
+ 
+-- 5. Új mező: eletkor (1B-os egész szám)
+ALTER TABLE AUTOKATALOGUS
+    ADD eletkor TINYINT UNSIGNED;
+ 
+-- 6. Az eletkor feltöltése az aktuális évszám alapján
+UPDATE AUTOKATALOGUS
+SET eletkor = YEAR(CURDATE()) - gyartasiEv;
+ 
+-- 7. Az ujkoriAra mező típusának módosítása 8B-os egész számra
+ALTER TABLE AUTOKATALOGUS
+    MODIFY ujkoriAra BIGINT;
+ 
+-- 8. Logikai típusú mező: uj
+ALTER TABLE AUTOKATALOGUS
+    ADD uj BOOLEAN;
+ 
+-- 9. Az uj mező feltöltése: 2023 -> igaz, 2022 -> hamis
+UPDATE AUTOKATALOGUS
+SET uj = TRUE
+WHERE gyartasiEv = 2023;
+ 
+UPDATE AUTOKATALOGUS
+SET uj = FALSE
+WHERE gyartasiEv = 2022;
+ 
+-- 10. Az 5 000 000 Ft-ot el nem érő árú autók törlése
+DELETE FROM AUTOKATALOGUS
+WHERE ujkoriAra < 5000000;

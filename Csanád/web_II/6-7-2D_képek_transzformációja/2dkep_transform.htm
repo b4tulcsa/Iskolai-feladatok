@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kép transform</title>
+<style>
+    body{
+        font-family: Arial, Helvetica, sans-serif;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 30px;
+        padding: 20px;
+    }
+    .container{
+        width: 200px;
+        text-align: center;
+    }
+    img{
+        width: 180px;
+        height: 120px;
+        border: 2px solid #ccc;
+        transition: transform 0.3s ease;
+    }
+    .rotate img{
+        transform: rotate(45deg);
+    }
+    .scale img{
+        transform: scale(1.5);
+    }
+    .translate img{
+        transform: translate(50px,20px);
+    }
+    .skew img{
+        transform: skew(20deg,10deg);
+    }
+    .multiple img{
+        transform: rotate(30deg) scale(2) translate(20px,30px);
+    }
+    .hover img:hover{
+        transform: scale(1.1) rotate(5deg);
+    }
+
+</style>
+</head>
+<body>
+    <div class="container rotate">
+        <h3>Rotate (Elforgatás)</h3>
+        <br><br><br><br><br>
+        <img src="https://picsum.photos/100?text=rotate" alt="Rotate">
+    </div>
+    <div class="container scale">
+        <h3>Scale (nagyitás)</h3>
+        <br><br><br><br><br>
+        <img src="https://picsum.photos/100?text=Scale" alt="Scale">
+    </div>
+    <div class="container translate">
+        <h3>Translate áthelyezés</h3>
+        <br><br><br><br><br>
+        <img src="https://picsum.photos/100?text=translate" alt="translate">
+    </div>
+    <div class="container skew">
+        <h3>Skew (Dőlés)</h3>
+        <br><br><br><br><br>
+        <img src="https://picsum.photos/100?text=Skew" alt="Skew">
+    </div>
+    <div class="container multiple">
+        <h3>Több transform</h3>
+        <br><br><br><br><br>
+        <img src="https://picsum.photos/100?text=Multiple" alt="Multiple">
+    </div>
+    <div class="container hover">
+        <h3>Hover effect</h3>
+        <br><br><br><br><br>
+        <img src="https://picsum.photos/100?text=hover" alt="Multiple">
+    </div>
+    
+</body>
+</html>
