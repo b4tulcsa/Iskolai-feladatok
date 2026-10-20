@@ -1,0 +1,41 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "J:\\2026_2027\\C\\dictionary\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{B2822606-2855-40FA-A2EB-0FA17ECAE47A}|dictionary\\dictionary.csproj|j:\\2026_2027\\c\\dictionary\\dictionary\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B2822606-2855-40FA-A2EB-0FA17ECAE47A}|dictionary\\dictionary.csproj|solutionrelative:dictionary\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "J:\\2026_2027\\C\\dictionary\\dictionary\\Program.cs",
+              "RelativeDocumentMoniker": "dictionary\\Program.cs",
+              "ToolTip": "J:\\2026_2027\\C\\dictionary\\dictionary\\Program.cs",
+              "RelativeToolTip": "dictionary\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-20T07:17:15.634Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

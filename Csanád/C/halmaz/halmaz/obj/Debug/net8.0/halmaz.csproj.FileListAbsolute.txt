@@ -1,0 +1,14 @@
+J:\2026_2027\C\halmaz\halmaz\bin\Debug\net8.0\halmaz.exe
+J:\2026_2027\C\halmaz\halmaz\bin\Debug\net8.0\halmaz.deps.json
+J:\2026_2027\C\halmaz\halmaz\bin\Debug\net8.0\halmaz.runtimeconfig.json
+J:\2026_2027\C\halmaz\halmaz\bin\Debug\net8.0\halmaz.dll
+J:\2026_2027\C\halmaz\halmaz\bin\Debug\net8.0\halmaz.pdb
+J:\2026_2027\C\halmaz\halmaz\obj\Debug\net8.0\halmaz.GeneratedMSBuildEditorConfig.editorconfig
+J:\2026_2027\C\halmaz\halmaz\obj\Debug\net8.0\halmaz.AssemblyInfoInputs.cache
+J:\2026_2027\C\halmaz\halmaz\obj\Debug\net8.0\halmaz.AssemblyInfo.cs
+J:\2026_2027\C\halmaz\halmaz\obj\Debug\net8.0\halmaz.csproj.CoreCompileInputs.cache
+J:\2026_2027\C\halmaz\halmaz\obj\Debug\net8.0\halmaz.dll
+J:\2026_2027\C\halmaz\halmaz\obj\Debug\net8.0\refint\halmaz.dll
+J:\2026_2027\C\halmaz\halmaz\obj\Debug\net8.0\halmaz.pdb
+J:\2026_2027\C\halmaz\halmaz\obj\Debug\net8.0\halmaz.genruntimeconfig.cache
+J:\2026_2027\C\halmaz\halmaz\obj\Debug\net8.0\ref\halmaz.dll

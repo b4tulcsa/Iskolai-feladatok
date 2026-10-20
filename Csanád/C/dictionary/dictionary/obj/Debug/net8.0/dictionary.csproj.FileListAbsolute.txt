@@ -1,0 +1,14 @@
+J:\2026_2027\C\dictionary\dictionary\bin\Debug\net8.0\dictionary.exe
+J:\2026_2027\C\dictionary\dictionary\bin\Debug\net8.0\dictionary.deps.json
+J:\2026_2027\C\dictionary\dictionary\bin\Debug\net8.0\dictionary.runtimeconfig.json
+J:\2026_2027\C\dictionary\dictionary\bin\Debug\net8.0\dictionary.dll
+J:\2026_2027\C\dictionary\dictionary\bin\Debug\net8.0\dictionary.pdb
+J:\2026_2027\C\dictionary\dictionary\obj\Debug\net8.0\dictionary.GeneratedMSBuildEditorConfig.editorconfig
+J:\2026_2027\C\dictionary\dictionary\obj\Debug\net8.0\dictionary.AssemblyInfoInputs.cache
+J:\2026_2027\C\dictionary\dictionary\obj\Debug\net8.0\dictionary.AssemblyInfo.cs
+J:\2026_2027\C\dictionary\dictionary\obj\Debug\net8.0\dictionary.csproj.CoreCompileInputs.cache
+J:\2026_2027\C\dictionary\dictionary\obj\Debug\net8.0\dictionary.dll
+J:\2026_2027\C\dictionary\dictionary\obj\Debug\net8.0\refint\dictionary.dll
+J:\2026_2027\C\dictionary\dictionary\obj\Debug\net8.0\dictionary.pdb
+J:\2026_2027\C\dictionary\dictionary\obj\Debug\net8.0\dictionary.genruntimeconfig.cache
+J:\2026_2027\C\dictionary\dictionary\obj\Debug\net8.0\ref\dictionary.dll

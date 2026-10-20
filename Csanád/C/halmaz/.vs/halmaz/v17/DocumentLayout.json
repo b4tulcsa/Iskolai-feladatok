@@ -1,0 +1,41 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "J:\\2026_2027\\C\\halmaz\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{AA6B30C4-A306-4738-A25B-A4E25894154F}|halmaz\\halmaz.csproj|j:\\2026_2027\\c\\halmaz\\halmaz\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AA6B30C4-A306-4738-A25B-A4E25894154F}|halmaz\\halmaz.csproj|solutionrelative:halmaz\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "J:\\2026_2027\\C\\halmaz\\halmaz\\Program.cs",
+              "RelativeDocumentMoniker": "halmaz\\Program.cs",
+              "ToolTip": "J:\\2026_2027\\C\\halmaz\\halmaz\\Program.cs",
+              "RelativeToolTip": "halmaz\\Program.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAIAwwCYAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-20T07:04:06.296Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
